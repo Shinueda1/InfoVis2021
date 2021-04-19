@@ -58,9 +58,9 @@ class Vec3
     }
     else
     {
-      ver max = this.max;
-      ver min = this.min;
-      ver v  = this.filter(n => (n != max)&&(n != min));
+      var max = this.max;
+      var min = this.min;
+      var v  = this.filter(n => (n != max)&&(n != min));
       return v[0];
     }
   }
