@@ -58,7 +58,7 @@ class Vec3
     }
     else
     {
-      var v = [this.x, this.y this.z];
+      var v = [this.x, this.y this.z]
       var max = this.max();
       var min = this.min();
       var rev  = v.filter(n => (n != max)&&(n != min));
