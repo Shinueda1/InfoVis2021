@@ -29,7 +29,7 @@ class Vec3
 
   min()
   {
-    ver new min= this.x;
+    var min= this.x;
     if (min >= this.y){
       min = this.y;
     }
@@ -41,7 +41,7 @@ class Vec3
 
 
   max(){
-    ver new max = this.x;
+    var max = this.x;
     if (max <= this.y){
       max = this.y;
     }
