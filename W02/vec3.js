@@ -61,7 +61,7 @@ class Vec3
       ver max = this.max;
       ver min = this.min;
       ver v  = this.filter(n => (n != max)&&(n != min));
-      return v;
+      return v[0];
     }
   }
 }
