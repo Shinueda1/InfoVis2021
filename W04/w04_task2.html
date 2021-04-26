@@ -13,6 +13,7 @@
 	     svg.selectAll("rect")
 		.data(data)
 	        .enter()
+          .append("rect")
           .attr("x", padding)
     	    .attr("y", function(d,i){ return padding + i * ( height + padding ); })
     	    .attr("width", function(d){ return d.width; })
