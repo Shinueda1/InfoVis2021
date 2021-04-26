@@ -1,6 +1,5 @@
-x,y,r,color
-20,20,10,red
-100,50,10,green
-70,80,10,blue
-170,30,10,orange
-150,70,10,black
+width,rabel,color
+45,Math,blue
+100,English,red
+80,Science,green
+70,P.E.,yellow
