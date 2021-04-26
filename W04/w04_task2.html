@@ -8,7 +8,7 @@
 	 var svg = d3.select("body").append("svg");
    var padding = 10;
 	 var height = 20;
-	 d3.csv("https://Shinueda1.github.io/InfoVis2021/W04/w04_task2.csv", draw ,label);
+	 d3.csv("https://Shinueda1.github.io/InfoVis2021/W04/w04_task2.csv", draw);
 	 function draw(data){
 	     svg.selectAll("rect")
 		.data(data)
@@ -20,15 +20,15 @@
     	    .attr("height", height)
           .style("fill", function(d){ return d.color; })
 	 };
-  function label(data){
-      svg.selectAll("text")
-    .data(data)
-          .enter()
-          .append("text")
-          .attr("x", padding)
-          .attr("y", function(d,i){ return padding + i * ( height + padding ); })
-          .text(function(d){return d.label;} )
-  };
+  //function label(data){
+  //    svg.selectAll("text")
+  //  .data(data)
+  //        .enter()
+  //        .append("text")
+    //      .attr("x", padding)
+      //    .attr("y", function(d,i){ return padding + i * ( height + padding ); })
+        //  .text(function(d){return d.label;} )
+  //};
 
 
 	</script>
